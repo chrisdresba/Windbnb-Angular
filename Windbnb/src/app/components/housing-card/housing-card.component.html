@@ -1,0 +1,38 @@
+<article
+    class="w-1/3 flex flex-col justify-center min-w-[100%] mt-6 p-4 bg-white rounded-xl relative sm:w-2/3 md:w-2/5 ">
+
+    <div [ngClass]="animateImg">
+        <img class="rounded-xl h-72 w-full object-cover" src="{{housing.images[number]}}" alt="" />
+    </div>
+    <div class="absolute inset-0 flex">
+        <div class="flex items-center justify-start w-1/2">
+            <button *ngIf="number != 0" (click)="previous()"
+                class="bg-white opacity-90 text-black hover:opacity-100 rounded-full w-10 mb-20 ml-5">
+                <img class="p-2" src="assets/img/izquierda.png" alt="">
+            </button>
+        </div>
+        <div class="flex items-center justify-end w-1/2">
+            <button [hidden]="valMax" (click)="next()"
+                class="bg-white opacity-90 text-black hover:opacity-100 rounded-full w-10 mb-20 mr-5">
+                <img class="p-2" src="assets/img/derecha.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    <section class="pt-4 flex flex-row justify-between">
+        <button *ngIf="housing.superHost" type="button"
+            class="pl-3 pr-3 mb-1 text-xs font-medium text-center text-gray-900 focus:outline-none bg-white rounded-2xl border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SUPER
+            HOST</button>
+        <p class="ml-2 text-sm text-center font-light tracking-tight text-gray-500 dark:text-white">{{housing.name}}
+        </p>
+        <div class="flex flex-row">
+            <img class="h-5 mr-1" src="./../../../assets/img/star.png" alt="" />
+            <span>{{housing.rating}}</span>
+        </div>
+    </section>
+    <p class="font-normal text-left pl-2 text-gray-700 dark:text-gray-400 mt-2">{{housing.city}}, {{housing.state}},
+        {{housing.country}}
+    </p>
+    <p class="font-bold text-left pl-2 text-gray-700 dark:text-gray-400 mt-2">u$s {{housing.price}} <span
+            class="font-normal">night</span></p>
+</article>

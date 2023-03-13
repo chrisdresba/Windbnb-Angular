@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "windbnb-angular"
+  },
+  "targets": {
+    "windbnb-angular": {
+      "hosting": {
+        "Windbnb": [
+          "windbnb-angular"
+        ]
+      }
+    }
+  }
+}

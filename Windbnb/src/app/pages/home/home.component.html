@@ -1,0 +1,9 @@
+<div class="w-full min-h-min">
+    <app-search (searchLocation)="onSearch($event)"></app-search>
+    <div class="w-full flex flex-row justify-between px-8 pt-12">
+        <h1 class="font-semibold">Stays in {{country}}</h1>
+        <p>{{countHousing}}+ stays</p>
+    </div>
+    <app-housing-list [arrayHousing]="arrayHousing | filter:location" [hidden]="!housingNotFound" ></app-housing-list>
+    <app-housing-not-found [hidden]="housingNotFound" (click)="refresh()"></app-housing-not-found>
+</div>
