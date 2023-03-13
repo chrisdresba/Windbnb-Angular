@@ -58,7 +58,6 @@ export class SearchComponent implements OnInit {
   viewSuggest() {
 
     setTimeout(() => {
-      console.log(this.busqueda.length)
       if(this.busqueda.length == 0){this.location = true , this.auxSuggest = false};
       if (this.busqueda.length > 2) {
         this.suggest = [];
