@@ -1,27 +1,52 @@
-# Windbnb
+ #  APLICACIÓN CHALLENGE DEV - CLONE AIRBNB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
+Proyecto desarrollado con Angular y Firebase.
 
-## Development server
+[Desafio](https://devchallenges.io/challenges/3JFYedSOZqAxYuOCNmYD): crea una versión pequeña de Airbnb - Windbnb con los datos proporcionados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/challenge.png?raw=true?raw=true)
 
-## Code scaffolding
+Complete las historias de usuario a continuación: 
+- Historia de usuario: Puedo ver una lista de propiedades 
+- Historia de usuario: Puedo ver la tarjeta de propiedad con un nombre, calificación, tipo de apartamento y superanfitrión 
+- Historia de usuario: Puedo abrir el cajón del filtro 
+- Historia de usuario: Puede filtrar propiedades por ubicación y número de huéspedes 
+- Historia de usuario: puedo ver la cantidad de elementos filtrados 
+- Historia de usuario: puedo ver páginas siguiendo diseños dados
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Puede acceder al proyecto desde el siguiente [link](https://windbnb-angular.web.app/).
 
-## Build
+**PASOS PARA CLONAR REPOSITORIO**
+- git clone https://github.com/chrisdresba/Windbnb-Angular.git
+- cd Windbnb
+- npm i
+- ng serve -o
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+# Funcionamiento
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Home - Pantalla de Inicio**  
 
-## Running end-to-end tests
+*Al iniciar podemos buscar un hospedaje a través de una ubicación y la cantidad de huespedes*    
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home1.png?raw=true?raw=true)
 
-## Further help
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home2.png?raw=true?raw=true)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home3.png?raw=true?raw=true)
+
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home4.png?raw=true?raw=true)
+
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home5.png?raw=true?raw=true)
+
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home6.png?raw=true?raw=true)
+
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/home7.png?raw=true?raw=true)
+
+**Diseño Responsive**
+   
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive1.png?raw=true?raw=true)
+
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive2.png?raw=true?raw=true)
+
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive3.png?raw=true?raw=true)
