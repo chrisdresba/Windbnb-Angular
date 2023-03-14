@@ -45,8 +45,5 @@ Puede acceder al proyecto desde el siguiente [link](https://windbnb-angular.web.
 
 **Diseño Responsive**
    
-![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive1.png?raw=true?raw=true)
+![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive.png?raw=true?raw=true)
 
-![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive2.png?raw=true?raw=true)
-
-![](https://github.com/chrisdresba/Windbnb-Angular/blob/main/Windbnb/img/responsive3.png?raw=true?raw=true)
