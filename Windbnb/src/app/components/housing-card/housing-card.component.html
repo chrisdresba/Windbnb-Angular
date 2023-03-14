@@ -21,18 +21,18 @@
 
     <section class="pt-4 flex flex-row justify-between">
         <button *ngIf="housing.superHost" type="button"
-            class="pl-3 pr-3 mb-1 text-xs font-medium text-center text-gray-900 focus:outline-none bg-white rounded-2xl border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SUPER
+            class="pl-3 pr-3 mb-1 text-xs font-medium text-center text-gray-900 focus:outline-none bg-white rounded-2xl border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">SUPER
             HOST</button>
-        <p class="ml-2 text-sm text-center font-light tracking-tight text-gray-500 dark:text-white">{{housing.name}}
+        <p class="ml-2 text-sm text-center font-light tracking-tight text-gray-500">{{housing.name}}
         </p>
         <div class="flex flex-row">
             <img class="h-5 mr-1" src="./../../../assets/img/star.png" alt="" />
             <span>{{housing.rating}}</span>
         </div>
     </section>
-    <p class="font-normal text-left pl-2 text-gray-700 dark:text-gray-400 mt-2">{{housing.city}}, {{housing.state}},
+    <p class="font-normal text-left pl-2 text-gray-700 mt-2">{{housing.city}}, {{housing.state}},
         {{housing.country}}
     </p>
-    <p class="font-bold text-left pl-2 text-gray-700 dark:text-gray-400 mt-2">u$s {{housing.price}} <span
+    <p class="font-bold text-left pl-2 text-gray-700 mt-2">u$s {{housing.price}} <span
             class="font-normal">night</span></p>
 </article>
